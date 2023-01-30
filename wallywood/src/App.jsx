@@ -1,13 +1,7 @@
 import { ContainerStyle } from "./Components/Styled/Container.style.js";
-import { GlobalStyle } from "./Components/Styled/Global.style.js";
 
 function App() {
-  return (
-    <>
-      <GlobalStyle />
-      <ContainerStyle bg="blue">lgjhglth</ContainerStyle>
-    </>
-  );
+  return <ContainerStyle maxwidth="1024">Hello World</ContainerStyle>;
 }
 
 export default App;
