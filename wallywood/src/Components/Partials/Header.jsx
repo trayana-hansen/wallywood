@@ -1,4 +1,4 @@
-import { HeaderStyle } from "../Styled/Header.style.js";
+import { HeaderStyle } from "./Header.style.js";
 import NavBarPrimary from "./NavBarPrimary";
 import { Link } from "react-router-dom";
 

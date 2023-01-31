@@ -1,4 +1,4 @@
-import { NavBarPrimaryStyle } from "../Styled/NavBarPrimary.style.js";
+import { NavBarPrimaryStyle } from "./NavBarPrimary.style.js";
 import { NavLink } from "react-router-dom";
 
 const NavBarPrimary = () => {
