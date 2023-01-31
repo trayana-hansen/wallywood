@@ -4,6 +4,7 @@ import {Reset} from './Mixins'
 export const HeaderStyle = styled.header `
 display: flex;
 justify-content: space-between;
+border-bottom: solid 1px ${props => props.theme.colors.primary};
 
 h1 {
 	font-family: ${props => props.theme.fonts[0]};

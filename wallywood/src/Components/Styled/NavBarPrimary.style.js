@@ -1,26 +1,37 @@
 import styled from 'styled-components'
+import {ClearList} from '../Styled/Mixins'
 
 export const NavBarPrimaryStyle = styled.nav `
 
-border: solid red 1px;
+
+height: 100%;
+margin-top: 2rem;
 
 ul {
 	display: flex;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	align-content: flex-end;
+	${ClearList}
 
+	li {
+	margin-left: 20px;
 
-}
-
-li {
-	margin: 1em;
-
-}
-
-a {
+	a {
+	font-family: ${props => props.theme.fonts[0]};
 	text-decoration: none;
+	color: ${props => props.theme.colors.tertiary};
+	font-size: 1.1rem;
+
+	&:hover {
+		color: ${props => props.theme.colors.secondary};
+	}
 }
+}
+
+
+}
+
+
+
 
 
 

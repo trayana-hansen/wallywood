@@ -1,7 +1,9 @@
+import { ContentWrapper } from "../../Components/App/ContentWrapper/ContentWrapper";
+
 const Plakater = () => {
   return (
     <div>
-      <h1>Plakater</h1>
+      <ContentWrapper title="Plakater" description="some description" />
     </div>
   );
 };
