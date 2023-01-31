@@ -20,6 +20,7 @@ ul {
 	text-decoration: none;
 	color: ${props => props.theme.colors.tertiary};
 	font-size: 1.1rem;
+	white-space: nowrap;
 
 	&:hover {
 		color: ${props => props.theme.colors.secondary};
