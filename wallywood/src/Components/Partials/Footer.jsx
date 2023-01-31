@@ -36,8 +36,8 @@ const Footer = () => {
         </svg>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="31"
-          height="31"
+          width="28"
+          height="28"
           viewBox="0 0 31 31"
         >
           <g
@@ -56,9 +56,9 @@ const Footer = () => {
                 d="M10,3H24a7,7,0,0,1,7,7V24a7,7,0,0,1-7,7H10a7,7,0,0,1-7-7V10a7,7,0,0,1,7-7Z"
                 fill="none"
                 stroke="#ccc"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="3"
               />
               <path
                 id="Path_2"
@@ -67,9 +67,9 @@ const Footer = () => {
                 transform="translate(-1.007 -0.993)"
                 fill="none"
                 stroke="#ccc"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="3"
               />
               <path
                 id="Path_3"
@@ -78,9 +78,9 @@ const Footer = () => {
                 transform="translate(-1.55 -0.45)"
                 fill="none"
                 stroke="#ccc"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="3"
               />
             </g>
           </g>
