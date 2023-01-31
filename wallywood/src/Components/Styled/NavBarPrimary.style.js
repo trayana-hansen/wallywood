@@ -15,7 +15,7 @@ ul {
 
 li {
 	margin: 1em;
-	
+
 }
 
 a {
