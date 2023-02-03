@@ -7,16 +7,18 @@ import { GlobalStyle } from "./Components/Styled/Global.style";
 import {BrowserRouter} from "react-router-dom"
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import { PosterProvider } from "./Components/App/PosterList/PosterList"
+
+const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-    <ThemeProvider theme={theme}>
-    <GlobalStyle />
-    <App />
-    </ThemeProvider>
-    </BrowserRouter>
+    <PosterProvider>
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </ThemeProvider>
+    </PosterProvider>
   </React.StrictMode>
-);
-
-
+)

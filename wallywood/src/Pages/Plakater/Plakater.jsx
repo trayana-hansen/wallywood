@@ -1,6 +1,4 @@
 import { ContentWrapper } from "../../Components/App/ContentWrapper/ContentWrapper";
-import DataList from "../../Components/App/Data/Data";
-
 
 const Plakater = () => {
   return (
@@ -9,9 +7,7 @@ const Plakater = () => {
         title="Plakater"
         description="Se vores udvalg af plakater"
       >
-        <section>
-          <DataList />
-        </section>
+        <section></section>
       </ContentWrapper>
     </div>
   );
