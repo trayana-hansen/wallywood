@@ -1,7 +1,7 @@
 import { ContentWrapper } from "../../Components/App/ContentWrapper/ContentWrapper";
 import { Link } from "react-router-dom";
 
-const Notfound = () => {
+const NotFound = () => {
   return (
     <ContentWrapper title="Siden blev ikke fudnet">
       <p>Siden findes ikke</p>
@@ -12,4 +12,4 @@ const Notfound = () => {
   );
 };
 
-export default Notfound;
+export default NotFound;

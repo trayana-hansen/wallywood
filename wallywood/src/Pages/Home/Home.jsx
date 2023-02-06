@@ -9,22 +9,23 @@ const Home = () => {
   return (
     <>
       <SlideWrapper />
-      <ContentWrapper title="Home">
-        <section>
-          {posterList &&
-            posterList.map((poster) => {
-              return (
-                <figure key={poster.id}>
-                  {poster.id}>
-                  <img src={poster.image} alt="Poster" />
-                  <figcaption>
-                    <p key={poster.id}>{poster.name}</p>
-                    <p>{poster.desciption}</p>
-                  </figcaption>
-                </figure>
-              );
-            })}
-        </section>
+      <ContentWrapper
+        title="Velkommen"
+        description="Her finder du nye og gamle film plakater"
+        subtitle="Alt i filmplakater"
+      >
+        {posterList &&
+          posterList.slice(0, 2).map((poster) => {
+            return (
+              <figure key={poster.id}>
+                <img src={poster.image} alt="Poster" />
+                <figcaption>
+                  <p>{poster.name}</p>
+                  <p>{poster.description}</p>
+                </figcaption>
+              </figure>
+            );
+          })}
       </ContentWrapper>
     </>
   );

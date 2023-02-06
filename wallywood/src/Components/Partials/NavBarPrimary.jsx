@@ -9,13 +9,13 @@ const NavBarPrimary = () => {
           <NavLink to="/">HOME</NavLink>
         </li>
         <li>
-          <NavLink to="/plakater">PLAKATER</NavLink>
+          <NavLink to="/posters">POSTERS</NavLink>
         </li>
         <li>
-          <NavLink to="/om_os">OM OS</NavLink>
+          <NavLink to="/about_us">ABOUT US</NavLink>
         </li>
         <li>
-          <NavLink to="/kontakt">KONTAKT</NavLink>
+          <NavLink to="/contact">CONTACT</NavLink>
         </li>
         <li>
           <NavLink to="/login">LOGIN</NavLink>

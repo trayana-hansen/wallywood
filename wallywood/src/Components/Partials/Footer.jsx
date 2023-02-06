@@ -1,4 +1,5 @@
-import { FooterStyle } from "./FooterStyle.js";
+import React from "react";
+import { FooterStyle } from "./FooterStyle";
 
 const Footer = () => {
   return (
@@ -36,8 +37,8 @@ const Footer = () => {
         </svg>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="28"
-          height="28"
+          width="31"
+          height="31"
           viewBox="0 0 31 31"
         >
           <g
