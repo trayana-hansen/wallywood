@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "../../../Pages/Home/Home";
 import NotFound from "../../../Pages/Notfound/Notfound";
+import Login from "../../../Pages/Login/Login";
 import {
   PosterDetails,
   PosterList,
@@ -15,6 +16,7 @@ const AppRouter = () => {
         <Route path=":slug" element={<PosterList />} />
         <Route path=":slug/:poster" element={<PosterDetails />} />
       </Route>
+      <Route path="/login" element={<Login />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
