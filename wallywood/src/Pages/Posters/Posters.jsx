@@ -8,6 +8,7 @@ const Posters = () => {
   return (
     <ContentWrapper title="Plakater" description="Se vores udvalg af plakater">
       <PostersStyle>
+        
         <div><GenreList /></div>
         <div>
           <Outlet />
